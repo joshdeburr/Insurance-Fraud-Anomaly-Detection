@@ -97,16 +97,20 @@ This analysis identified a small group of providers with behavior that deviates 
 ---
 
 ## Project Structure
-
+```
 healthcare-claims-analysis/
 │
+├── data/
 ├── images/
-│   ├── top_providers.png
-│   ├── distribution.png
-│   ├── scatter.png
+│ ├── top_providers.png
+│ ├── distribution.png
+│ ├── scatter.png
 │
 ├── analysis.py
+├── provider_summary.csv
+├── suspicious_providers.csv
 ├── README.md
+└── requirements.txt
 
 
 ---

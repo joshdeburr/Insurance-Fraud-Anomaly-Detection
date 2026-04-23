@@ -1,11 +1,11 @@
-# 📊 Healthcare Claims Fraud Detection Analysis
+# Healthcare Claims Fraud Detection Analysis
 
-## 🔍 Overview
+## Overview
 This project analyzes healthcare claims data to identify providers with potentially anomalous billing behavior. By aggregating claim-level data and applying statistical techniques, the analysis highlights providers whose patterns deviate significantly from the norm.
 
 ---
 
-## 🎯 Objective
+## Objective
 To detect healthcare providers with unusual billing activity by analyzing:
 - Average reimbursement per claim  
 - Claims per patient  
@@ -13,14 +13,14 @@ To detect healthcare providers with unusual billing activity by analyzing:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python  
 - pandas  
 - matplotlib  
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset used for this project contains healthcare claims data, including:
 - Provider IDs  
 - Claim reimbursement amounts  
@@ -30,7 +30,7 @@ The dataset used for this project contains healthcare claims data, including:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Preparation
 - Combined training and test datasets  
@@ -58,7 +58,7 @@ Created provider-level metrics:
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - The distribution of reimbursement is **right-skewed**, with a small number of providers exhibiting significantly higher averages.  
 - A subset of providers shows both:
@@ -69,7 +69,7 @@ Created provider-level metrics:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### Top Providers by Average Reimbursement
 ![Top Providers](images/top_providers.png)
@@ -82,13 +82,13 @@ Created provider-level metrics:
 
 ---
 
-## 🚨 Conclusion
+## Conclusion
 
 This analysis identified a small group of providers with behavior that deviates significantly from the norm. By combining multiple metrics into a unified risk score, the project demonstrates how data analysis can be used to flag potentially suspicious activity for further investigation.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Incorporate additional features (e.g., diagnosis codes, time trends)  
 - Apply machine learning models for classification  
@@ -96,4 +96,20 @@ This analysis identified a small group of providers with behavior that deviates 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+healthcare-claims-analysis/
+│
+├── data/
+├── images/
+├── analysis.py
+├── provider_summary.csv
+├── suspicious_providers.csv
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 📌 Author
+Joshua DeBurr

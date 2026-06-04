@@ -82,7 +82,7 @@ Created provider-level metrics:
 
 ## Conclusion
 
-This project demonstrates a practical approach to healthcare claims analysis using provider-level aggregation, statistical outlier detection, and risk scoring. The workflow can help prioritize providers for further review and serves as a foundation for more advanced fraud, waste, and abuse detection techniques.
+This project demonstrates a practical approach to healthcare claims analysis using provider-level aggregation, statistical outlier detection, and risk scoring. The workflow can help prioritize providers for further review and serves as a foundation for more advanced fraud detection techniques.
 
 ---
 

@@ -1,12 +1,12 @@
 # Healthcare Claims Fraud Detection Analysis
 
 ## Overview
-This project analyzes healthcare claims data to identify providers with potentially anomalous billing behavior. By aggregating claim-level data and applying statistical techniques, the analysis highlights providers whose patterns deviate significantly from the norm.
+This purpose of this project is to analyze healthcare claims data to identify providers that have potentially abnormal billing behavior. By gathering and combining claim-level data and applying statistics techniques, the analysis highlights providers with patterns that deviates significantly from the norm.
 
 ---
 
 ## Objective
-To detect healthcare providers with unusual billing activity by analyzing:
+Figure out which healthcare providers have unusual billing activity by analyzing:
 - Average reimbursement per claim  
 - Claims per patient  
 - Combined risk indicators  
@@ -24,13 +24,13 @@ To detect healthcare providers with unusual billing activity by analyzing:
 The dataset used for this project contains healthcare claims data, including:
 - Provider IDs  
 - Claim reimbursement amounts  
-- Patient identifiers  
+- Patient IDs 
 
 *Note: Provider identities are anonymized.*
 
 ---
 
-## Methodology
+## Analysis
 
 ### 1. Data Preparation
 - Combined training and test datasets  
@@ -44,7 +44,7 @@ Created provider-level metrics:
 - **Claims per Patient**
 
 ### 3. Outlier Detection
-- Defined thresholds using standard deviation  
+- Using standard deviation to establish thresholds  
 - Identified providers with unusually high reimbursement  
 
 ### 4. Risk Scoring
@@ -54,37 +54,35 @@ Created provider-level metrics:
 ### 5. Visualization
 - Bar chart of top providers  
 - Distribution histogram  
-- Scatter plot to identify multi-variable anomalies  
+- Scatter plot to identify anomalies  
 
 ---
 
 ## Key Findings
 
-- The distribution of reimbursement is **right-skewed**, with a small number of providers exhibiting significantly higher averages.  
+- The reimbursement distribution is strongly **right-skewed**, with a small percentage of providers receiving substantially higher average reimbursements than the overall population.  
 - A subset of providers shows both:
   - High reimbursement per claim  
   - High claims per patient  
 
-- These providers were flagged as **high-risk** and may represent anomalous billing behavior.
-
+- The analysis narrowed thousands of claim records down to a smaller group of providers that may warrant additional review.
+- While these results don't prove fraudulent activity, they demonstrate how data analysis can be used to identify unusual billing patterns for further investigation.
+  
 ---
 
 ## Visualizations
 
-### Top Providers by Average Reimbursement
 ![Top Providers](images/top_providers.png)
 
-### Distribution of Reimbursement
 ![Distribution](images/distribution.png)
 
-### Provider Risk Analysis
 ![Scatter Plot](images/scatter.png)
 
 ---
 
 ## Conclusion
 
-This analysis identified a small group of providers with behavior that deviates significantly from the norm. By combining multiple metrics into a unified risk score, the project demonstrates how data analysis can be used to flag potentially suspicious activity for further investigation.
+This project demonstrates a practical approach to healthcare claims analysis using provider-level aggregation, statistical outlier detection, and risk scoring. The workflow can help prioritize providers for further review and serves as a foundation for more advanced fraud, waste, and abuse detection techniques.
 
 ---
 
